@@ -6,7 +6,10 @@
 # Node artifact files
 node_modules/
 dist/
-
+.gradle
+.gradle/*
+build
+build/*
 # Compiled Java class files
 *.class
 
