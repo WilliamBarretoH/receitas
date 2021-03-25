@@ -20,6 +20,15 @@ dependencies {
     compile "org.apache.tomcat:tomcat-jasper:${tomcatVersion}"
     compile 'org.apache.tomcat:tomcat-jasper-el:${tomcat.version}'
     compile 'org.apache.tomcat:tomcat-jsp-api:${tomcat.version}'
+
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
+
+    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+
+    compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.0-api', version: '1.0.0.Final'
+
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.0.5.Final'
+    compile 'org.hibernate:hibernate-entitymanager:5.0.0.Final'
 }
 test {
     useJUnitPlatform()
@@ -30,5 +39,5 @@ task runWithJavaExec(type: JavaExec) {
     group = "Execution"
     description = "Run the main class with JavaExecTask"
     classpath = sourceSets.main.runtimeClasspath
-    main = 'br.com.william.App'
+    main = 'br.com.software.laboratorio.App'
 }
