@@ -6,16 +6,15 @@
     	href="${pageContext.request.contextPath}/css/ingredientes.css"
     	rel="stylesheet" type="text/css" />
 
+    <link
+    	href="${pageContext.request.contextPath}/css/modal.css"
+    	rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
 
-<script>
 
-function act(){
-    document.getElementById("ingredientes").className = 'active';
-}
-</script>
 
 <div class="topnav" id="MyDiv">
   <a class="" href="/hello">Inicio</a>
@@ -43,7 +42,7 @@ function act(){
     </span>
     
 
-    <button class="">
+    <button class="button1">
       Adicionar ingrediente
     </button>
 
@@ -57,10 +56,10 @@ function act(){
     <div class="box">
     <h3>Doces</h3>
     <ul class="df">
-    <li>Chocolate</li>
-    <li>Goiabada</li>
-    <li>Marmelada</li>
-    <li>Chantily</li>
+    <li id="myBtn">Chocolate <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Goiabada <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Marmelada <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Chantily <button class="button1">editar</button ><button class="button1">deletar</button></li>
     </ul>
 
   </div>
@@ -69,14 +68,14 @@ function act(){
     <div class="box">
    <h3>Ingredientes base</h3>
    <ul class="s1">
-    <li>Farinha de trigo</li>
-    <li>Leite</li>
-    <li>Fermento</li>
-    <li>Ovo</li>
-    <li>Manteiga</li>
-    <li>Açucar</li>
-    <li>Sal</li>
-    <li>Agua</li>
+    <li>Farinha de trigo <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Leite <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Fermento <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Ovo <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Manteiga <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Açucar <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Sal <button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Agua <button class="button1">editar</button ><button class="button1">deletar</button></li>
    </ul>
   </div>
  </li>
@@ -85,19 +84,21 @@ function act(){
     <div class="box">
    <h3>Salgados</h3>
    <ul class="s1">
-    <li>Frango desfiado</li>
-    <li>Calabresa</li>
-    <li>Presunto</li>
-    <li>Mussarela</li>
+    <li>Frango desfiado<button class="button1">editar</button ><button class="button1">deletar</button></li>
+    <li>Calabresa<button class="button1">editar</button><button class="button1">deletar</button></li>
+    <li>Queijo<button class="button1">editar</button><button class="button1">deletar</button></li>
+    <li>Carne moida<button class="button1">editar</button><button class="button1">deletar</button></li>
    </ul>
   </div>
  </li>
 
- 
-
 </ul>
 
-</div>
+
+<script>
+
+
+</script>
 
 </body>
 </html>
