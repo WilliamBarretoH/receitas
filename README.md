@@ -1,8 +1,11 @@
-#Run project
+# Run project
 
-###Linux
+### Linux
 ` cd <project dir>`\
-` cd project dir sh gradlew runWithJavaExec`
-###Windows
+` gradle build`\
+` gradle run `
+
+### Windows
 ` cd <project dir>`\
-`gradle.bat runWithJavaExec`
+` gradle build`\
+` gradle run `
