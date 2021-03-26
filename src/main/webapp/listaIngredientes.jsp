@@ -26,6 +26,32 @@ function act(){
 <div class="X">
 <h1>Lista de ingredientes disponiveis</h1>
 
+
+<div class="SG">
+
+  <form class="" action="">
+
+    
+    <span>Nome: <input type="text" > </span>
+    <span>Categoria: 
+      <select name="ingredientesCategorias" id="ingredientesCategorias"> 
+      <option value="Doces">Doces</option>
+      <option value="Ingredientes base">Ingredientes base</option>
+      <option value="Salgados">Salgados</option>
+      
+    </select>
+    </span>
+    
+
+    <button class="">
+      Adicionar ingrediente
+    </button>
+
+  </form>
+
+</div>
+
+
 <ul class="SG">
   <li class="sgLi">
     <div class="box">
@@ -36,6 +62,7 @@ function act(){
     <li>Marmelada</li>
     <li>Chantily</li>
     </ul>
+
   </div>
  </li>
   <li class="sgLi">
@@ -49,7 +76,7 @@ function act(){
     <li>Manteiga</li>
     <li>Açucar</li>
     <li>Sal</li>
-    <li>Água</li>
+    <li>Agua</li>
    </ul>
   </div>
  </li>
@@ -65,6 +92,8 @@ function act(){
    </ul>
   </div>
  </li>
+
+ 
 
 </ul>
 
